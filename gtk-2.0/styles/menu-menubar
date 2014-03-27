@@ -144,7 +144,7 @@ style "menubar-item"
 	fg[PRELIGHT] = @bg_color
 	fg[SELECTED] = @bg_color
   xthickness			= 1
-  ythickness			= 1
+  ythickness			= 4
 }
 
 

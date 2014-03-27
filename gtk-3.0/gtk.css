@@ -1,10 +1,10 @@
 /* default color scheme */
-@define-color bg_color #fafafa;
+@define-color bg_color #e0e0e0;
 @define-color fg_color #555555;
 @define-color base_color #fefefe;
 @define-color text_color #333333;
 @define-color selected_bg_color transparent;
-@define-color selected_fg_color #df253f;
+@define-color selected_fg_color #aa0000;
 @define-color tooltip_bg_color #fefefe;
 @define-color tooltip_fg_color #2d2d2d;
 
@@ -31,7 +31,7 @@
 @define-color question_bg_color #5160d2;
 @define-color error_fg_color #fefefe;
 @define-color error_bg_color #fa4a3e;
-@define-color link_color #df253f;
+@define-color link_color #aa0000;
 @define-color success_color #53a93f;
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
@@ -47,7 +47,8 @@
 @define-color menu_fg_color @theme_bg_color;
 @define-color panel_bg_color #222222;
 @define-color panel_fg_color #f2f2f2;
-@define-color menu_selected_fg_color shade(mix(#ff0000, @theme_selected_fg_color, 0.75), 1.35);
+/*@define-color menu_selected_fg_color shade(mix(#ff0000, @theme_selected_fg_color, 0.75), 1.35);*/
+@define-color menu_selected_fg_color @theme_selected_fg_color;
 
 /* osd */
 @define-color osd_base #fafafa;

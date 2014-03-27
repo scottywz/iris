@@ -1,11 +1,13 @@
 .header-bar,
 .header-bar:insensitive {
-	border-width: 0 0 1px;
+	border-width: 0 0 0px;
 	border-style: solid;
 	border-color: shade(@menubar_bg_color, 0.90);
 
 	background-color: @menubar_bg_color;
-    padding: 6px 6px;
+	padding: 6px 6px;
+	
+	border-top: 6px solid @selected_fg_color;
 }
 
 .header-bar .button.text-button {
