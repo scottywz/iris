@@ -23,10 +23,10 @@ style "menuitem"
  ythickness            			= 4
  fg[NORMAL] = @bg_color
  text[NORMAL] = @bg_color
-	fg[PRELIGHT] = "#f65c6a"
-	fg[SELECTED] = "#f65c6a"
-	text[SELECTED] = "#f65c6a"
-	text[PRELIGHT]	= "#f65c6a"
+	fg[PRELIGHT] = @selected_bg_color
+	fg[SELECTED] = @selected_bg_color
+	text[SELECTED] = @selected_bg_color
+	text[PRELIGHT]	= @selected_bg_color
    engine "pixmap"
   {
     image
