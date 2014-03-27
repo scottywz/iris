@@ -1,7 +1,7 @@
 iris
 ====
 
-A simple, flat and bold GTK+ theme.
+A simple, flat, and bold GTK+ theme.
 
 This repo contains my changes to the Iris Dark theme.  These include:
 
